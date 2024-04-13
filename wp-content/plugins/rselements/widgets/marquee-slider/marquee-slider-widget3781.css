@@ -1,0 +1,19 @@
+.marquee_wrapper {
+  position: relative;
+}
+.marquee_wrapper .marquee_text {
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 100%;
+  font-weight: bold;
+  overflow: hidden;
+  display: inline-block;
+}
+.marquee_wrapper .marquee_text img {
+  margin: 0 15px;
+  cursor: grab;
+  border-radius: 4px;
+}
+.marquee_wrapper .marquee_text img:active {
+  cursor: grabbing;
+}

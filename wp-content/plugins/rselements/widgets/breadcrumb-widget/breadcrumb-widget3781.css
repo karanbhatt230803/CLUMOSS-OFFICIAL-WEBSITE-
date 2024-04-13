@@ -1,0 +1,138 @@
+.breadcrumb-area {
+  margin: 0 auto;
+}
+.breadcrumb-area.style2 {
+  font-size: 0;
+}
+.breadcrumb-area.style2 span {
+  position: relative;
+  font-size: 14px;
+  margin-left: 3px;
+  margin-right: 8px;
+}
+.breadcrumb-area.style2 span:after {
+  content: "";
+  position: absolute;
+  background: #fff;
+  width: 1px;
+  height: 16px;
+  border-radius: 0;
+  right: -4px;
+  top: 1.5px;
+  transform: rotate(25deg);
+}
+.breadcrumb-area.style2 span span:after {
+  display: none;
+}
+.breadcrumb-area.style2 span:last-child:after {
+  display: none;
+}
+.breadcrumb-area.style3 {
+  font-size: 0;
+}
+.breadcrumb-area.style3 span {
+  position: relative;
+  font-size: 14px;
+}
+.breadcrumb-area.style3 span:after {
+  content: "\f121";
+  position: absolute;
+  font-family: uicons-regular-rounded !important;
+  font-size: 19px;
+  top: -6px;
+  right: -8px;
+  opacity: 1;
+  transition: all 0.3s;
+  color: #8366E3;
+}
+.breadcrumb-area.style3 span span:after {
+  display: none;
+}
+.breadcrumb-area.style3 span:last-child:after {
+  display: none;
+}
+
+.breadcrumbs-inner svg {
+  width: 20px;
+  fill: #fff;
+  position: relative;
+  top: -2px;
+  left: 5px;
+}
+.breadcrumbs-inner span a {
+  position: relative;
+  margin-right: 30px;
+}
+.breadcrumbs-inner span a:after {
+  position: absolute;
+  content: "";
+  opacity: 1 !important;
+  visibility: visible;
+  height: 2px;
+  width: 7px;
+  right: -19px;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  background: #fff;
+  transition: unset !important;
+}
+.breadcrumbs-inner span a:before {
+  position: absolute;
+  content: "";
+  font-family: unset !important;
+  right: -25px;
+  left: unset;
+  opacity: 1 !important;
+  visibility: visible;
+  font-size: 18px;
+  transition: unset !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  border-left: 6px solid #fff;
+  border-bottom: 6px solid transparent;
+  border-right: 0 solid transparent;
+  border-top: 6px solid transparent;
+}
+.breadcrumbs-inner span span:before {
+  display: none;
+}
+.breadcrumbs-inner span span:after {
+  display: none;
+}
+
+.breadcrumbs-title {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 14px 30px;
+  max-width: 300px;
+  margin: 20px auto 0;
+  font-size: 0;
+}
+.breadcrumbs-title span {
+  position: relative;
+  font-size: 14px;
+  padding: 0px 10px 0px 10px;
+}
+.breadcrumbs-title span:after {
+  content: "";
+  position: absolute;
+  background: #8366E3;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  right: -3px;
+  top: 5px;
+}
+.breadcrumbs-title span span:after {
+  display: none;
+}
+.breadcrumbs-title span:last-child:after {
+  display: none;
+}
+
+.rs-breadcrumbs .breadcrumbs-meta {
+  justify-content: center;
+}
+
+.single .breadcrumbs-title {
+  max-width: 700px;
+}

@@ -1,0 +1,93 @@
+.footer-subscribe-3 .subscribe-border {
+  display: inline-block;
+}
+
+.footer-subscribe-3 .subscribe-border:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  border-radius: 6px;
+  transition: 0.5s;
+  z-index: -1;
+  border-style: dashed;
+  border-width: 2px 2px 2px 2px;
+  border-color: #f23232;
+  bottom: -7px;
+  left: 9px;
+  width: 98%;
+  height: 100%;
+  z-index: 0;
+  opacity: 1;
+}
+
+.footer-subscribe-3 .subscribe-border:hover:before {
+  transform: translate3d(-8px, -8px, 0);
+  opacity: 0;
+}
+
+.rs-newsletter-form {
+  position: relative;
+}
+.rs-newsletter-form label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.rs-newsletter-form .form-inner {
+  position: relative;
+}
+.rs-newsletter-form .form-inner input {
+  border-radius: 10px;
+  height: 100%;
+}
+.rs-newsletter-form .form-inner input[type=email] {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 16px;
+  line-height: 26px;
+  border: 1px solid rgba(62, 62, 62, 0.6);
+}
+.rs-newsletter-form .form-inner .submit_nl {
+  z-index: 1;
+  padding: 10px 17px;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.rs-newsletter-form.right-arrow .mc4wp-form-fields p {
+  position: relative;
+}
+.rs-newsletter-form.right-arrow .mc4wp-form-fields p span:before, .rs-newsletter-form.right-arrow .mc4wp-form-fields p span:after {
+  position: absolute;
+  content: "";
+  right: unset;
+  transition: unset !important;
+  top: 49% !important;
+  transform: translateY(-50%) !important;
+  pointer-events: none;
+  z-index: 5;
+}
+.rs-newsletter-form.right-arrow .mc4wp-form-fields p span:after {
+  height: 2px;
+  width: 7px;
+  left: 113px;
+  background: #fff;
+}
+.rs-newsletter-form.right-arrow .mc4wp-form-fields p span:before {
+  font-family: unset !important;
+  left: 120px;
+  opacity: 1 !important;
+  visibility: visible;
+  font-size: 18px;
+  border-left: 6px solid #fff;
+  border-bottom: 6px solid transparent;
+  border-right: 0 solid transparent;
+  border-top: 6px solid transparent;
+}

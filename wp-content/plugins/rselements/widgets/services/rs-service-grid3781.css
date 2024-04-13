@@ -1,0 +1,246 @@
+.rs-addon-services.style1 .services-inner {
+  transition: all 0.3s ease 0s;
+}
+.rs-addon-services.style1 .services-inner.gradient-border-enable {
+  background: linear-gradient(0deg, #8366E3 0%, transparent 100%);
+  border: 0px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+.rs-addon-services.style1 .services-inner.gradient-border-enable:before {
+  position: absolute;
+  content: "";
+  left: 1.5px;
+  top: 1.5px;
+  right: 1.5px;
+  bottom: 1.5px;
+  background: #fff;
+  transition: all 0.3s ease 0s;
+}
+.rs-addon-services.style1 .services-inner.gradient-border-enable .media_wrap,
+.rs-addon-services.style1 .services-inner.gradient-border-enable .content_part {
+  position: relative;
+  z-index: 1;
+}
+.rs-addon-services.style1 .services-inner .numbering {
+  flex-shrink: 0;
+  transition: 0.5s;
+}
+.rs-addon-services.style1 .services-inner:hover .btn-part {
+  transition: 0.5s;
+}
+.rs-addon-services.style1 .services-inner:hover .services-btn .ser-icon-right {
+  background: #323f7c;
+}
+.rs-addon-services.style1 .services-inner .services-btn .ser-icon-right {
+  background: #ebb88f;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.3s;
+}
+.rs-addon-services.style1 .services-inner .services-btn .ser-icon-right:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.4);
+  left: -10px;
+}
+.rs-addon-services.style1 .services-inner .services-title > * {
+  transition: 0.3s;
+}
+.rs-addon-services.style2 .services-inner .media_wrap {
+  position: relative;
+}
+.rs-addon-services.style2 .services-inner .media_wrap .media-cmn {
+  transition-duration: 0.2s !important;
+}
+.rs-addon-services.style2 .services-inner .media_wrap .media-cmn .normal {
+  display: block;
+}
+.rs-addon-services.style2 .services-inner .media_wrap .media-cmn .hover {
+  display: none;
+}
+.rs-addon-services.style2 .services-inner .media_wrap img {
+  transition-duration: 0s !important;
+}
+.rs-addon-services.style2 .services-inner .media_wrap .overly_style_icon_normal {
+  position: absolute;
+  left: 30px;
+  bottom: -35px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: all 0.5s;
+  opacity: 1;
+  background: linear-gradient(253.04deg, #4200FF 7.71%, #104CBA 91.47%);
+  z-index: 1;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rs-addon-services.style2 .services-inner .media_wrap .overly_style_icon_normal img {
+  width: 40px;
+  height: auto;
+}
+.rs-addon-services.style2 .services-inner:hover .media-cmn .normal {
+  display: none;
+}
+.rs-addon-services.style2 .services-inner:hover .media-cmn .hover {
+  display: block;
+}
+.rs-addon-services.style3 .services-inner {
+  transition-duration: 0.3s ease-in-out;
+}
+.rs-addon-services.style3 .services-inner .media_wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.rs-addon-services.style3 .services-inner .media_wrap img {
+  border-radius: 0px !important;
+}
+.rs-addon-services.style3 .services-inner .media_wrap .overly_icon_normal {
+  position: absolute;
+  right: -68px;
+  bottom: -68px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  padding: 37px 40px 40px 40px;
+  transition: all 0.5s;
+  opacity: 1;
+  background: linear-gradient(253.04deg, #4200FF 7.71%, #104CBA 91.47%);
+  z-index: 1;
+  pointer-events: none;
+}
+.rs-addon-services.style3 .services-inner .media_wrap .overly_icon_normal img {
+  filter: brightness(900000000%);
+  width: 45px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+.rs-addon-services.style3 .services-inner .media_wrap .overly_icon_normal:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(253.04deg, #4200FF 7.71%, #104CBA 91.47%);
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: -1;
+  transition: all 0.5s;
+  transition-delay: 0.5s;
+  transform: scale(1.2);
+}
+.rs-addon-services.style3 .services-inner .media_wrap .overly_icon_hover {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.5s ease;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 15px;
+  overflow: hidden;
+  transform: scale(0);
+}
+.rs-addon-services.style3 .services-inner .media_wrap .overly_icon_hover .icon_wrapper {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.rs-addon-services.style3 .services-inner .media_wrap .overly_icon_hover .icon_wrapper img {
+  width: 40px;
+  height: auto;
+}
+.rs-addon-services.style3 .services-inner .media_wrap .overly_icon_hover:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(253.04deg, #4200FF 7.71%, #104CBA 91.47%);
+  opacity: 0.6;
+}
+.rs-addon-services.style3 .services-inner .content_part .btn-part .services-btn i, .rs-addon-services.style3 .services-inner .content_part .btn-part .services-btn svg {
+  transition-duration: 0.3s;
+}
+.rs-addon-services.style3 .services-inner .content_part .btn-part .services-btn.iconposition_right:hover i, .rs-addon-services.style3 .services-inner .content_part .btn-part .services-btn.iconposition_right:hover svg {
+  padding-left: 5px;
+}
+.rs-addon-services.style3 .services-inner .content_part .btn-part .services-btn.iconposition_left:hover i, .rs-addon-services.style3 .services-inner .content_part .btn-part .services-btn.iconposition_left:hover svg {
+  padding-right: 5px;
+}
+.rs-addon-services.style3 .services-inner:hover .overly_icon_normal {
+  transform: translate(108px, 108px);
+  opacity: 0;
+}
+.rs-addon-services.style3 .services-inner:hover .overly_icon_normal:after {
+  transform: scale(1);
+  transition-delay: 0s;
+}
+.rs-addon-services.style3 .services-inner:hover .overly_icon_hover {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+.rs-addon-services.style4 .services-inner .service-heading {
+  display: flex;
+  align-items: center;
+}
+.rs-addon-services.style4 .services-inner .service-heading .feature-content-style-four > * {
+  margin: 0;
+}
+.rs-addon-services.style4 .services-inner .service-heading .feature-image img {
+  height: 70px;
+}
+.rs-addon-services.style4 .services-inner ul.rs-features-list {
+  list-style: none;
+  margin: 0;
+}
+.rs-addon-services.style4 .services-inner ul.rs-features-list li {
+  transition: 0.2s ease-in-out;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 7px;
+  display: flex;
+  transition: transform 0.2s ease-in-out;
+}
+.rs-addon-services.style4 .services-inner ul.rs-features-list li .icon_wrap {
+  min-width: 30px;
+}
+.rs-addon-services.style4 .services-inner ul.rs-features-list li img, .rs-addon-services.style4 .services-inner ul.rs-features-list li svg {
+  width: 25px;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+.rs-addon-services.style4 .services-inner ul.rs-features-list li a {
+  transition: 0.2s ease-in-out;
+}
+.rs-addon-services.style4 .services-inner ul.rs-features-list li:hover a {
+  margin-left: 25px !important;
+}

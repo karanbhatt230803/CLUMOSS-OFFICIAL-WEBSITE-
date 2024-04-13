@@ -1,0 +1,165 @@
+.elementor-widget-rs-product-list .product-img,
+.elementor-widget-rs-product-slider .product-img,
+.elementor-widget-rs-productlist .product-img {
+  position: relative;
+}
+.elementor-widget-rs-product-list .product-img span,
+.elementor-widget-rs-product-slider .product-img span,
+.elementor-widget-rs-productlist .product-img span {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #fff;
+  border-radius: 50%;
+  color: #ff0000;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.elementor-widget-rs-product-list .product-img.overlay,
+.elementor-widget-rs-product-slider .product-img.overlay,
+.elementor-widget-rs-productlist .product-img.overlay {
+  position: relative;
+}
+.elementor-widget-rs-product-list .product-img.overlay .product-btn,
+.elementor-widget-rs-product-slider .product-img.overlay .product-btn,
+.elementor-widget-rs-productlist .product-img.overlay .product-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.elementor-widget-rs-product-list .product-img.overlay .product-btn a,
+.elementor-widget-rs-product-slider .product-img.overlay .product-btn a,
+.elementor-widget-rs-productlist .product-img.overlay .product-btn a {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+}
+.elementor-widget-rs-product-list .product-img.overlay .product-btn a:hover,
+.elementor-widget-rs-product-slider .product-img.overlay .product-btn a:hover,
+.elementor-widget-rs-productlist .product-img.overlay .product-btn a:hover {
+  background: #333;
+}
+.elementor-widget-rs-product-list .product-item .overlay:before,
+.elementor-widget-rs-product-slider .product-item .overlay:before,
+.elementor-widget-rs-productlist .product-item .overlay:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  transition: all 2s ease;
+  position: absolute;
+}
+.elementor-widget-rs-product-list .product-item:hover .overlay,
+.elementor-widget-rs-product-slider .product-item:hover .overlay,
+.elementor-widget-rs-productlist .product-item:hover .overlay {
+  position: relative;
+}
+.elementor-widget-rs-product-list .product-item:hover .overlay .product-btn,
+.elementor-widget-rs-product-slider .product-item:hover .overlay .product-btn,
+.elementor-widget-rs-productlist .product-item:hover .overlay .product-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  z-index: 9;
+  text-align: center;
+}
+.elementor-widget-rs-product-list .product-item:hover .overlay .product-btn a,
+.elementor-widget-rs-product-slider .product-item:hover .overlay .product-btn a,
+.elementor-widget-rs-productlist .product-item:hover .overlay .product-btn a {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.elementor-widget-rs-product-list .product-item:hover .overlay .product-btn a:hover,
+.elementor-widget-rs-product-slider .product-item:hover .overlay .product-btn a:hover,
+.elementor-widget-rs-productlist .product-item:hover .overlay .product-btn a:hover {
+  background: #333;
+}
+.elementor-widget-rs-product-list .product-item:hover .overlay:before,
+.elementor-widget-rs-product-slider .product-item:hover .overlay:before,
+.elementor-widget-rs-productlist .product-item:hover .overlay:before {
+  opacity: 1;
+}
+.rselements-product-list {
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-img{
+    overflow: hidden;
+}
+.elementor-widget-rs-product-list .product-item:hover .product-img .product-btn{
+    bottom: 0;
+}
+.product-img .product-btn{
+    bottom: -60px;
+    transition: all .5s ease;
+    position: absolute;
+    width: 100%;
+}
+.product-img .product-btn a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 0px;
+    line-height: 33px;
+    border: none;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    padding: 5px 20px;
+    background: #080d41;
+    display: block;
+}
+.rselements-product-list h4 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+.rselements-product-list h4 a {
+  color: #333;
+}
+.rselements-product-list h4 a:hover {
+  color: #111;
+}
+.rselements-product-list .product-price {
+  font-size: 16px;
+}
+.rselements-product-list .product-btn {
+  margin-top: 25px;
+}
+.rselements-product-list .product-btn a {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+}
+.rselements-product-list .product-btn a:hover {
+  background: #333;
+}
+.elementor-widget-rs-productlist .product-item {
+  padding-bottom: 35px;
+}
+.elementor-widget-rs-productlist .rselements-product-list {
+  text-align: unset;
+}
